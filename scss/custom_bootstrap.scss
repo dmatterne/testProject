@@ -1,0 +1,28 @@
+$theme-colors: (
+  "primary": #326959,
+  "dark": #1f2121,
+  "secondary": #1f1f1f
+);
+$list-group-bg: #326959;
+$list-group-color: white;
+// $list-group-border-color: rgba($black, .125);
+// $list-group-border-width: 1em;
+// $list-group-border-radius: $border-radius;
+
+$list-group-item-padding-y: 25px * 1.5;
+$list-group-item-padding-x: $spacer;
+// $list-group-item-bg-scale: -80%;
+// $list-group-item-color-scale: 40%;
+
+// $list-group-hover-bg: $gray-100;
+// $list-group-active-color: $component-active-color;
+$list-group-active-bg: #1f1f1f;
+// $list-group-active-border-color: $list-group-active-bg;
+
+// $list-group-action-color: $gray-700;
+// $list-group-action-hover-color: $list-group-action-color;
+
+$list-group-action-active-color: #1f1f1f;
+// $list-group-action-active-bg: $gray-200;
+
+@import "../bootstrap/scss/bootstrap";
